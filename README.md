@@ -1,1 +1,1 @@
-# Check the docs at ![ https://jimas95.github.io/rigid2D/]
+# Check the docs ![here]( https://jimas95.github.io/rigid2D/)
