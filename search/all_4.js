@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['magnitude_6',['magnitude',['../structrigid2d_1_1Vector2D.html#aa9276d3584ab968ef04917aac3388cc9',1,'rigid2d::Vector2D']]]
+  ['forward_7',['forward',['../classrigid2d_1_1DiffDrive.html#a6562812c33eb45ca06438802bf9f9603',1,'rigid2d::DiffDrive']]]
 ];

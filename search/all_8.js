@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['rad2deg_19',['rad2deg',['../rigid2d_8hpp.html#a6883dbf1c0018c962e890754e9d5f62f',1,'rigid2d']]],
-  ['rigid2d_2ehpp_20',['rigid2d.hpp',['../rigid2d_8hpp.html',1,'']]]
+  ['magnitude_13',['magnitude',['../structrigid2d_1_1Vector2D.html#aa9276d3584ab968ef04917aac3388cc9',1,'rigid2d::Vector2D']]]
 ];

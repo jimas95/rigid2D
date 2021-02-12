@@ -88,6 +88,15 @@ Include dependency graph for rigid2d.hpp:</div>
 <area shape="rect" title=" " alt="" coords="115,80,178,107"/>
 </map>
 </div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="rigid2d_8hpp__dep__incl.png" border="0" usemap="#include_2rigid2d_2rigid2d_8hppdep" alt=""/></div>
+<map name="include_2rigid2d_2rigid2d_8hppdep" id="include_2rigid2d_2rigid2d_8hppdep">
+<area shape="rect" title="Library for two&#45;dimensional rigid body transformations." alt="" coords="5,5,200,32"/>
+<area shape="rect" href="diff__drive_8hpp.html" title="Library for two&#45;dimensional rigid body for a diff drive robot." alt="" coords="31,80,175,121"/>
+</map>
+</div>
 </div>
 <p><a href="rigid2d_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -123,10 +132,10 @@ std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="
 <tr class="memdesc:a6be2725ac611fb926359452705a2a78b"><td class="mdescLeft">&#160;</td><td class="mdescRight">input a 2 dimensional vector You should be able to read vectors entered as two numbers separated by a newline or a space, or entered as [xcomponent, ycomponent] is - stream from which to read v [out] - output vector <br /></td></tr>
 <tr class="separator:a6be2725ac611fb926359452705a2a78b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64aa5b0482ffb85d4b30c41d87e3e462"><td class="memItemLeft" align="right" valign="top">Vector2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rigid2d_8hpp.html#a64aa5b0482ffb85d4b30c41d87e3e462">rigid2d::operator*</a> (Vector2D vec1, double scalar)</td></tr>
-<tr class="memdesc:a64aa5b0482ffb85d4b30c41d87e3e462"><td class="mdescLeft">&#160;</td><td class="mdescRight">multiplication of vector1*vector2  <a href="rigid2d_8hpp.html#a64aa5b0482ffb85d4b30c41d87e3e462">More...</a><br /></td></tr>
+<tr class="memdesc:a64aa5b0482ffb85d4b30c41d87e3e462"><td class="mdescLeft">&#160;</td><td class="mdescRight">multiplication of vector2*double  <a href="rigid2d_8hpp.html#a64aa5b0482ffb85d4b30c41d87e3e462">More...</a><br /></td></tr>
 <tr class="separator:a64aa5b0482ffb85d4b30c41d87e3e462"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6aeec49ea396ade0fdb31a0e3bc253ae"><td class="memItemLeft" align="right" valign="top">Vector2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rigid2d_8hpp.html#a6aeec49ea396ade0fdb31a0e3bc253ae">rigid2d::operator*</a> (double scalar, Vector2D vec1)</td></tr>
-<tr class="memdesc:a6aeec49ea396ade0fdb31a0e3bc253ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">multiplication of vector1*vector2  <a href="rigid2d_8hpp.html#a6aeec49ea396ade0fdb31a0e3bc253ae">More...</a><br /></td></tr>
+<tr class="memdesc:a6aeec49ea396ade0fdb31a0e3bc253ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">multiplication of double*vector2  <a href="rigid2d_8hpp.html#a6aeec49ea396ade0fdb31a0e3bc253ae">More...</a><br /></td></tr>
 <tr class="separator:a6aeec49ea396ade0fdb31a0e3bc253ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a724b0555fa896d16d412d8f5bb245bfb"><td class="memItemLeft" align="right" valign="top">Vector2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rigid2d_8hpp.html#a724b0555fa896d16d412d8f5bb245bfb">rigid2d::operator+</a> (Vector2D vec1, const Vector2D &amp;vec2)</td></tr>
 <tr class="memdesc:a724b0555fa896d16d412d8f5bb245bfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">add two vectors  <a href="rigid2d_8hpp.html#a724b0555fa896d16d412d8f5bb245bfb">More...</a><br /></td></tr>
@@ -134,8 +143,8 @@ std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="
 <tr class="memitem:a87064f25ac97be81a832b9a014088c9c"><td class="memItemLeft" align="right" valign="top">Vector2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rigid2d_8hpp.html#a87064f25ac97be81a832b9a014088c9c">rigid2d::operator-</a> (Vector2D vec1, const Vector2D &amp;vec2)</td></tr>
 <tr class="memdesc:a87064f25ac97be81a832b9a014088c9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">subtrack two vectors : vec1-vec2  <a href="rigid2d_8hpp.html#a87064f25ac97be81a832b9a014088c9c">More...</a><br /></td></tr>
 <tr class="separator:a87064f25ac97be81a832b9a014088c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0443f75da6037f7cdea13dc04c1f632d"><td class="memItemLeft" align="right" valign="top"><a id="a0443f75da6037f7cdea13dc04c1f632d"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>rigid2d::normalize_angle</b> (double rad)</td></tr>
+<tr class="memitem:a0443f75da6037f7cdea13dc04c1f632d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rigid2d_8hpp.html#a0443f75da6037f7cdea13dc04c1f632d">rigid2d::normalize_angle</a> (double rad)</td></tr>
+<tr class="memdesc:a0443f75da6037f7cdea13dc04c1f632d"><td class="mdescLeft">&#160;</td><td class="mdescRight">normilize and angle AT RADIANS to range -PI,PI  <a href="rigid2d_8hpp.html#a0443f75da6037f7cdea13dc04c1f632d">More...</a><br /></td></tr>
 <tr class="separator:a0443f75da6037f7cdea13dc04c1f632d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea82cd0c72b801297c0da941ef7dd64a"><td class="memItemLeft" align="right" valign="top"><a id="aea82cd0c72b801297c0da941ef7dd64a"></a>
 std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rigid2d_8hpp.html#aea82cd0c72b801297c0da941ef7dd64a">rigid2d::operator&lt;&lt;</a> (std::ostream &amp;os, const Twist2D &amp;v)</td></tr>
@@ -284,6 +293,33 @@ constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 
 </div>
 </div>
+<a id="a0443f75da6037f7cdea13dc04c1f632d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0443f75da6037f7cdea13dc04c1f632d">&#9670;&nbsp;</a></span>normalize_angle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double rigid2d::normalize_angle </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rad</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>normilize and angle AT RADIANS to range -PI,PI </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rad</td><td>angle to be normilized (IN RADIANS) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the normilized angle </dd></dl>
+
+</div>
+</div>
 <a id="a6aeec49ea396ade0fdb31a0e3bc253ae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6aeec49ea396ade0fdb31a0e3bc253ae">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/3]</span></h2>
 
@@ -310,11 +346,11 @@ constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el
       </table>
 </div><div class="memdoc">
 
-<p>multiplication of vector1*vector2 </p>
+<p>multiplication of double*vector2 </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">scalar</td><td>number to multiply </td></tr>
     <tr><td class="paramname">vec1</td><td>vector2D </td></tr>
-    <tr><td class="paramname">vec2</td><td>vector2D </td></tr>
   </table>
   </dd>
 </dl>
@@ -386,11 +422,11 @@ constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el
       </table>
 </div><div class="memdoc">
 
-<p>multiplication of vector1*vector2 </p>
+<p>multiplication of vector2*double </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">vec1</td><td>vector2D </td></tr>
-    <tr><td class="paramname">vec2</td><td>vector2D </td></tr>
+    <tr><td class="paramname">scalar</td><td>number to multiply </td></tr>
   </table>
   </dd>
 </dl>

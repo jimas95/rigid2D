@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['print_5ftf_5fmat_49',['print_tf_mat',['../classrigid2d_1_1Transform2D.html#aa976b1733d7be0ce81aeb9f11a1f75a1',1,'rigid2d::Transform2D']]]
+  ['normalize_70',['normalize',['../rigid2d_8hpp.html#a9fe5783913fe21b000a0fd62ce29ae5f',1,'rigid2d']]],
+  ['normalize_5fangle_71',['normalize_angle',['../rigid2d_8hpp.html#a0443f75da6037f7cdea13dc04c1f632d',1,'rigid2d']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['y_27',['y',['../classrigid2d_1_1Transform2D.html#afd0b328fb1212e51cd49c52eef3fc0b1',1,'rigid2d::Transform2D']]]
+  ['set_5ftf_5fmat_32',['set_tf_mat',['../classrigid2d_1_1Transform2D.html#a3f80758af9521da3c1fe0e0069a350dd',1,'rigid2d::Transform2D']]],
+  ['setpose_33',['setPose',['../classrigid2d_1_1DiffDrive.html#a0b077b3f66305878aca1c46a6a781e3f',1,'rigid2d::DiffDrive']]]
 ];

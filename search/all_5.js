@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['normalize_7',['normalize',['../rigid2d_8hpp.html#a9fe5783913fe21b000a0fd62ce29ae5f',1,'rigid2d']]]
+  ['getencoders_8',['getEncoders',['../classrigid2d_1_1DiffDrive.html#a2aa6ee766289ad9831b5830e1ab668f2',1,'rigid2d::DiffDrive']]],
+  ['getpose_9',['getPose',['../classrigid2d_1_1DiffDrive.html#aefba996889f536d0b369d4638288afcc',1,'rigid2d::DiffDrive']]]
 ];

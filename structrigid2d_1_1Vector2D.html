@@ -85,7 +85,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a064223063675908e24885e38a9f2653d"><td class="mdescLeft">&#160;</td><td class="mdescRight">set elements of vector  <a href="structrigid2d_1_1Vector2D.html#a064223063675908e24885e38a9f2653d">More...</a><br /></td></tr>
 <tr class="separator:a064223063675908e24885e38a9f2653d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c1551ce5c2471330d77647a43f24467"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrigid2d_1_1Vector2D.html">Vector2D</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrigid2d_1_1Vector2D.html#a8c1551ce5c2471330d77647a43f24467">operator*=</a> (double scalar)</td></tr>
-<tr class="memdesc:a8c1551ce5c2471330d77647a43f24467"><td class="mdescLeft">&#160;</td><td class="mdescRight">multiplication of vector1=vector1*vector2  <a href="structrigid2d_1_1Vector2D.html#a8c1551ce5c2471330d77647a43f24467">More...</a><br /></td></tr>
+<tr class="memdesc:a8c1551ce5c2471330d77647a43f24467"><td class="mdescLeft">&#160;</td><td class="mdescRight">multiplication of vector1=vector1*double  <a href="structrigid2d_1_1Vector2D.html#a8c1551ce5c2471330d77647a43f24467">More...</a><br /></td></tr>
 <tr class="separator:a8c1551ce5c2471330d77647a43f24467"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94a00e39cf74a8234b707d87a4a0c984"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrigid2d_1_1Vector2D.html">Vector2D</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrigid2d_1_1Vector2D.html#a94a00e39cf74a8234b707d87a4a0c984">operator+=</a> (const <a class="el" href="structrigid2d_1_1Vector2D.html">Vector2D</a> &amp;vec)</td></tr>
 <tr class="memdesc:a94a00e39cf74a8234b707d87a4a0c984"><td class="mdescLeft">&#160;</td><td class="mdescRight">add of vector1=vector1+vector2  <a href="structrigid2d_1_1Vector2D.html#a94a00e39cf74a8234b707d87a4a0c984">More...</a><br /></td></tr>
@@ -102,11 +102,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a1876d655fe2da548c4813777c450845c"><td class="memItemLeft" align="right" valign="top"><a id="a1876d655fe2da548c4813777c450845c"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>x</b> = 0.0</td></tr>
+<tr class="memitem:a1876d655fe2da548c4813777c450845c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrigid2d_1_1Vector2D.html#a1876d655fe2da548c4813777c450845c">x</a> = 0.0</td></tr>
 <tr class="separator:a1876d655fe2da548c4813777c450845c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa814ea37ffe4a161b0020609580e4d17"><td class="memItemLeft" align="right" valign="top"><a id="aa814ea37ffe4a161b0020609580e4d17"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>y</b> = 0.0</td></tr>
+<tr class="memitem:aa814ea37ffe4a161b0020609580e4d17"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrigid2d_1_1Vector2D.html#aa814ea37ffe4a161b0020609580e4d17">y</a> = 0.0</td></tr>
 <tr class="separator:aa814ea37ffe4a161b0020609580e4d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -223,14 +221,14 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>y</b> = 0.0</td></t
 </table>
 </div><div class="memdoc">
 
-<p>multiplication of vector1=vector1*vector2 </p>
+<p>multiplication of vector1=vector1*double </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">vec</td><td>vector2D </td></tr>
+    <tr><td class="paramname">scalar</td><td>double number to multiply the vector </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>returns the resulted vector of multiply </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>returns the resulted vector of multiplication </dd></dl>
 
 </div>
 </div>
@@ -301,6 +299,37 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>y</b> = 0.0</td></t
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>returns the resulted vector of multiply </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1876d655fe2da548c4813777c450845c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1876d655fe2da548c4813777c450845c">&#9670;&nbsp;</a></span>x</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double rigid2d::Vector2D::x = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>x axis position. </p>
+
+</div>
+</div>
+<a id="aa814ea37ffe4a161b0020609580e4d17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa814ea37ffe4a161b0020609580e4d17">&#9670;&nbsp;</a></span>y</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double rigid2d::Vector2D::y = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>y axis position. </p>
 
 </div>
 </div>
